@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+}
+.container{
+    border: 2px solid black;
+    justify-self: center;
+    margin-top: 8vw;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+}
+#equal{
+    grid-row: span 2;
+    background-color: gray;
+}
+button{
+    padding: 10px;
+    background-color: transparent;
+    margin: 2px;
+    font-size: x-large;
+    border: 1px solid black;
+}
+input{
+    padding: 10px 10px 10px 0;
+    font-size: x-large;
+}
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: all 0.3s;
+}
+button:active{
+    background-color: rgb(113, 107, 107);
+}
